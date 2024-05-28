@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Dashboard</title>
+    <link rel="stylesheet" href="profile.css">
+</head>
+<body>
+    <div class="video-container">
+        <video autoplay loop muted>
+            <source src="acesso/BG2.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <div class="container">
+        <h1>Profile Dashboard</h1>
+        <div class="profile-info">
+            <label for="first-name">First Name:</label>
+            <p id="first-name"></p>
+        </div>
+        <div class="profile-info">
+            <label for="last-name">Last Name:</label>
+            <p id="last-name"></p>
+        </div>
+        <div class="profile-info">
+            <label for="email">Email Address:</label>
+            <p id="email"></p>
+        </div>
+        <div class="profile-info">
+            <label for="sex">Sex:</label>
+            <p id="sex"></p>
+        </div>
+        <div class="profile-info">
+            <label for="support-reason">Why I support this campaign:</label>
+            <p id="support-reason"></p>
+        </div>
+        <a href="index.html">Return to Home</a>
+        <a onclick="logout()">Log Out</a>
+    </div>
+
+    <script src="profile.js"></script>
+</body>
+</html>

@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+
+* {
+    font-family: "Chelsea Market", system-ui;
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    z-index: -1;
+    min-height: 100%;
+}
+
+img {
+    opacity: 0.8;
+    width: 5vw;
+    height: auto;
+    position: relative;
+    align-self: center;
+    margin-left: 25vw;
+    background-color: rgb(194, 197, 179);
+    border-radius: 100px;
+}
+
+h1 {
+    font-size: 140px;
+    color: #ADD8E6;
+    opacity: 0.75;
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h3 {
+    font-size: 30px;
+    color: #ADD8E6;
+    opacity: 0.75;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.topnav {
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #333;
+    text-align: center;
+    padding: 20px 100px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    border-radius: 30px;
+    color: black;
+}
+
+.topnav a.right {
+    float: right;
+}
+
+.bottomnav {
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.bottomnav a {
+    float: left;
+    display: block;
+    color: #333;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    color: wheat;
+}
+
+.bottomnav a:hover {
+    background-color: #ddd;
+    border-radius: 30;
+    color: black;
+}

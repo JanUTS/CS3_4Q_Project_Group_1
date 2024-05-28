@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Page</title>
+    <link rel="stylesheet" href="signup.css">
+ 
+</head>
+<body>
+    <div class="video-container">
+        <video autoplay loop muted>
+            <source src="acesso/BG3.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
+
+<div id="container">
+<form action="" id="signup">
+    <legend id="name">BETTERSEAS</legend>
+    <br>
+    <label for="fname" id="fnameLabel">First Name <span id="red">*</span></label>
+    <span class="required" id="1r">required</span>
+    <input type="text" name="fname" id="fname" placeholder="Enter your Name" class="lineblanks">
+    <label for="cont" id="fnameLabel">Contact Number</label>
+    <input type="text" name="cont" id="cont" placeholder="Enter your Number">
+    <br>
+    <label for="lname" id="lnameLabel">Last Name <span id="red">*</span></label>
+    <span class="required" id="2r">required</span>
+    <input type="text" name="lname" id="lname" placeholder="Enter your Surname" class="lineblanks">
+
+
+    
+    <label for="sex" id="sxLabel">Sex <span id="red">*</span> </label>
+    <span class="required" id="3r">required</span>
+    <div id="sex">
+        <input type="radio" name="sex" id="male" value="Male">
+        <label for="male">Male</label>
+        <input type="radio" name="sex" id="female" value="Female">
+        <label for="female">Female</label>
+        <input type="radio" name="sex" id="other" value="Prefer not Say">
+        <label for="other">Prefer not Say</label>
+    </div>
+    <br>
+    <label for="lname" id="emailLabel">Email <span id="red">*</span></label>
+    <span class="required" id="4r">required</span>
+    <input type="email" name="email" id="email" placeholder="Enter your Email" class="lineblanks">
+    <label for="lname" id="passLabel">Password <span id="red">*</span></label>
+    <span class="required" id="5r">required</span>
+    <input type="password" name="pass" id="pass" placeholder="Enter your password" class="lineblanks">
+    <input type="checkbox" id="showPassword">
+    <label for="showPassword" id="showpass">Show Password</label>
+    <br>
+    <br>
+    <a href="index.html">Retrun to Home</a>
+  
+
+
+
+
+</form>
+<form id="supportForm">
+    <label for="rsn" id="rsnlabel">Why do you support us <span id="red">*</span></label>
+    <span class="required" id="6r">required</span>
+    <br>
+    <textarea id="rsn" rows="10" cols="40" placeholder="Why do you support us?"></textarea>
+    
+    <input type="submit" value="Sign up" id="submit">
+    <br>
+   
+  
+  
+</form>
+
+</div>
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
